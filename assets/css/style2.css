@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+}
+
+.stickers {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 5%;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+
+}
+
+.card input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+}
+
+.respuesta{
+    text-align: center;
+    font-size: 24px;
+}
